@@ -43,7 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builders\Contracts\IProjectBuilder.cs" />
+    <Compile Include="Builders\MobileProjectBuilder.cs" />
+    <Compile Include="Builders\WebProjectBuilder.cs" />
+    <Compile Include="Directors\AnotherProjectConstructor.cs" />
+    <Compile Include="Directors\Contracts\IProjectConstructor.cs" />
+    <Compile Include="Directors\ProjectConstructor.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
