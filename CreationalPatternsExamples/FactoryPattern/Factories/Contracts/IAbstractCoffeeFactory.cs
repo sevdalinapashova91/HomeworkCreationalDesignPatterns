@@ -6,6 +6,6 @@
     {
         SpecialCoffee MakeLate();
         SpecialCoffee MakeMochaccino();
-        RegularCoffee MakeRegullarCoffee();
+        RegularCoffee MakeRegularCoffee();
     }
 }

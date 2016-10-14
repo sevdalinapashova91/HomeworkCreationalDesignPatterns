@@ -38,7 +38,7 @@ namespace FactoryPattern.Factories
             return new SpecialCoffee(CoffeeType.Mochaccino, CoffeeKind.NesCafe, Size.Small, Name, ingredians);
         }
 
-        public RegularCoffee MakeRegullarCoffee()
+        public RegularCoffee MakeRegularCoffee()
         {            
             return new RegularCoffee(CoffeeType.Regular, CoffeeKind.NesCafe, Size.Small, Name);
         }

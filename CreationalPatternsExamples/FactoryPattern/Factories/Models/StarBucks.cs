@@ -42,7 +42,7 @@
             return new SpecialCoffee(CoffeeType.Mochaccino, CoffeeKind.Bourbon, Size.Large, Name, ingredians);
         }
 
-        public RegularCoffee MakeRegullarCoffee()
+        public RegularCoffee MakeRegularCoffee()
         {
             return new RegularCoffee(CoffeeType.Regular, CoffeeKind.Bourbon, Size.Large, Name);
         }

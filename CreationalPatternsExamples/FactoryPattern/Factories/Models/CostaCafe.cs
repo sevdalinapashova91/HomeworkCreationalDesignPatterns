@@ -32,7 +32,7 @@
             return new SpecialCoffee(CoffeeType.Mochaccino, CoffeeKind.Lavazza, Size.Normal, Name, ingredians);
         }
 
-        public RegularCoffee MakeRegullarCoffee()
+        public RegularCoffee MakeRegularCoffee()
         {
             return new RegularCoffee(CoffeeType.Regular, CoffeeKind.Lavazza, Size.Normal, Name);
         }
