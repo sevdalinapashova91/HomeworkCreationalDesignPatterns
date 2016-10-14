@@ -43,14 +43,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coffee\Contracts\ICoffee.cs" />
+    <Compile Include="Coffee\Enums\CoffeeType.cs" />
+    <Compile Include="Coffee\Enums\CoffeeKind.cs" />
+    <Compile Include="Coffee\Enums\Size.cs" />
+    <Compile Include="Coffee\Models\RegularCoffee.cs" />
+    <Compile Include="Coffee\Models\SpecialCoffee.cs" />
+    <Compile Include="Factories\Models\CafeAtTheCorner.cs" />
+    <Compile Include="Factories\Contracts\IAbstractCoffeeFactory.cs" />
+    <Compile Include="Factories\Models\CostaCafe.cs" />
+    <Compile Include="Factories\Models\StarBucks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\CoffeeeResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoffeeeResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ExceptionResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExceptionResource.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documentation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CoffeeeResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CoffeeeResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExceptionResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExceptionResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
