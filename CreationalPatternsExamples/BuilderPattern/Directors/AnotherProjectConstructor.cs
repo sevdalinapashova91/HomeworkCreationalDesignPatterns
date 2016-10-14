@@ -1,7 +1,7 @@
-﻿using BuilderPattern.Directors.Contracts;
-
-namespace BuilderPattern.Directors
+﻿namespace BuilderPattern.Directors
 {
+    using BuilderPattern.Directors.Contracts;
+
     class AnotherProjectConstructor : IProjectConstructor
     {
         public void Constructor(IProjectBuilder projectBuilder)

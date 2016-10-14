@@ -1,12 +1,7 @@
-﻿using BuilderPattern.Directors.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BuilderPattern.Directors
+﻿namespace BuilderPattern.Directors
 {
+    using BuilderPattern.Directors.Contracts;
+
     public class ProjectConstructor : IProjectConstructor
     {
         public void Constructor(IProjectBuilder projectBuilder)

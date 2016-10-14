@@ -1,9 +1,9 @@
-﻿using BuilderPattern.Builders;
-using BuilderPattern.Directors;
-using System;
-
-namespace BuilderPattern
+﻿namespace BuilderPattern
 {
+    using BuilderPattern.Builders;
+    using BuilderPattern.Directors;
+    using System;
+
     class Program
     {
         static void Main(string[] args)
